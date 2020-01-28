@@ -1,4 +1,4 @@
-#include "libmx.h"
+#include "../inc/libmx.h"
 
 void *mx_memjoin(void *dst, void *src, size_t size, size_t len) {
     char *d = dst;

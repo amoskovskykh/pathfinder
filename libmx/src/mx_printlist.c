@@ -1,4 +1,4 @@
-#include "libmx.h"
+#include "../inc/libmx.h"
 
 void mx_printlist(t_list *p) {
     t_list *ptr = p;

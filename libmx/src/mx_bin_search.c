@@ -1,4 +1,4 @@
-#include "libmx.h"
+#include "../inc/libmx.h"
 
 int mx_bin_search(char **arr, int l, int r, const char *s) {
     for (int m = l + (r - l) / 2; l <= r; m = l + (r - l) / 2) {

@@ -1,4 +1,4 @@
-#include "libmx.h"
+#include "../inc/libmx.h"
 
 // _Bool bmx_strcmp(char *s1, char *s2) {
 //     return (*s1 > *s2) ? true : false;

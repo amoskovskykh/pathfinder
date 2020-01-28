@@ -1,4 +1,4 @@
-#include "libmx.h"
+#include "../inc/libmx.h"
 
 char *mx_itoa(int number) {
     unsigned int m = (number < 0) ? -number : number;

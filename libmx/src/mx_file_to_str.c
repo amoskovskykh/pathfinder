@@ -1,4 +1,4 @@
-#include "libmx.h"
+#include "../inc/libmx.h"
 
 static int mx_file_size(const char *file) {
 	int fd = open(file, 'r');
