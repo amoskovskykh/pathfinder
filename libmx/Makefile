@@ -67,7 +67,6 @@ strchr \
 atoi \
 isdigit \
 printerr \
-lib_main \
 \
 
 SRCS = $(addsuffix .c, $(addprefix mx_, $(SRC)))
@@ -75,7 +74,7 @@ INC = libmx.h
 OBJS = $(SRCS:.c=.o)
 CFLAGS = -std=c11 -Wall -Wextra -Werror -Wpedantic
 
-all: install
+all: install clean
 
 install:
 	@cp $(addprefix src/, $(SRCS)) .

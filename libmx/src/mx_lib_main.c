@@ -1,5 +1,4 @@
-#include "../inc/libmx.h"
-#include <string.h>
+#include "inc/libmx.h"
 
 // printf("%zu\n", malloc_size(mx_strtrim(name)));
 
@@ -19,11 +18,11 @@
 //     printf("%d\n", mx_count_substr(s, c));
 // }
 
-// int main() {
-//     //char *s = "  follow  *   the  white rabbit ";
-//     char *s = "";
-//     printf("%d\n", mx_count_words(s, ' '));
-// }
+int main() {
+    //char *s = "  follow  *   the  white rabbit ";
+    char *s = "";
+    printf("%d\n", mx_count_words(s, ' '));
+}
 
 // int main() {   
 //     t_list *s = mx_create_node("dojo");

@@ -93,4 +93,3 @@ void mx_printerr(const char *s);
 
 
 #endif 
-cc
